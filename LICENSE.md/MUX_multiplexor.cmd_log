@@ -1,0 +1,3 @@
+vhdtdtfi -lib work MUX_multiplexor.vhd -prj Procesador1 -o MUX_multiplexor.spl -module MUX_multiplexor -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MUX_multiplexor.spl D:/Proyectos_Xilinx/Procesador1/MUX_multiplexor.sym 
+vhdtdtfi -prj Procesador1 -o D:/Proyectos_Xilinx/Procesador2/MUX_multiplexor.vhi -module MUX_multiplexor -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MUX_multiplexor.vhd 

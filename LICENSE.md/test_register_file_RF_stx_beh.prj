@@ -1,0 +1,2 @@
+vhdl isim_temp "register_file_RF.vhd"
+vhdl isim_temp "test_register_file_RF.vhd"

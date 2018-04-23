@@ -1,0 +1,3 @@
+vhdtdtfi -lib work progam_counter_PC.vhd -prj Procesador1 -o progam_counter_PC.spl -module progam_counter_PC -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e progam_counter_PC.spl D:/Proyectos_Xilinx/Procesador1/progam_counter_PC.sym 
+vhdtdtfi -prj Procesador1 -o D:/Proyectos_Xilinx/Procesador2/progam_counter_PC.vhi -module progam_counter_PC -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work progam_counter_PC.vhd 

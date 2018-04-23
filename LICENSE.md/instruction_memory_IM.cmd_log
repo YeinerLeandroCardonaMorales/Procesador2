@@ -1,0 +1,3 @@
+vhdtdtfi -lib work instruction_memory_IM.vhd -prj Procesador1 -o instruction_memory_IM.spl -module instruction_memory_IM -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e instruction_memory_IM.spl D:/Proyectos_Xilinx/Procesador1/instruction_memory_IM.sym 
+vhdtdtfi -prj Procesador1 -o D:/Proyectos_Xilinx/Procesador2/instruction_memory_IM.vhi -module instruction_memory_IM -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work instruction_memory_IM.vhd 

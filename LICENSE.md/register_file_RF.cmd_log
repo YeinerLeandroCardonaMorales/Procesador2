@@ -1,0 +1,13 @@
+vhdtdtfi -lib work register_file_RF.vhd -prj Procesador1 -o register_file_RF.spl -module register_file_RF -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register_file_RF.spl D:/Proyectos_Xilinx/Procesador1/register_file_RF.sym 
+vhdtdtfi -lib work register_file_RF.vhd -prj Procesador1 -o register_file_RF.spl -module register_file_RF -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register_file_RF.spl D:/Proyectos_Xilinx/Procesador1/register_file_RF.sym 
+vhdtdtfi -lib work register_file_RF.vhd -prj Procesador1 -o register_file_RF.spl -module register_file_RF -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register_file_RF.spl D:/Proyectos_Xilinx/Procesador1/register_file_RF.sym 
+vhdtdtfi -lib work register_file_RF.vhd -prj Procesador1 -o register_file_RF.spl -module register_file_RF -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register_file_RF.spl D:/Proyectos_Xilinx/Procesador1/register_file_RF.sym 
+vhdtdtfi -lib work register_file_RF.vhd -prj Procesador1 -o register_file_RF.spl -module register_file_RF -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register_file_RF.spl D:/Proyectos_Xilinx/Procesador1/register_file_RF.sym 
+vhdtdtfi -lib work register_file_RF.vhd -prj Procesador1 -o register_file_RF.spl -module register_file_RF -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register_file_RF.spl D:/Proyectos_Xilinx/Procesador1/register_file_RF.sym 
+vhdtdtfi -prj Procesador1 -o D:/Proyectos_Xilinx/Procesador2/register_file_RF.vhi -module register_file_RF -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work register_file_RF.vhd 

@@ -1,0 +1,3 @@
+vhdtdtfi -lib work nPc.vhd -prj Procesador1 -o nPc.spl -module nPc -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e nPc.spl D:/Proyectos_Xilinx/Procesador1/nPc.sym 
+vhdtdtfi -prj Procesador1 -o D:/Proyectos_Xilinx/Procesador2/nPc.vhi -module nPc -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work nPc.vhd 

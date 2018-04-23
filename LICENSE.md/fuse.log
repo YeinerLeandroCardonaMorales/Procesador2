@@ -1,0 +1,41 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Proyectos_Xilinx/Procesador2/test_procesador2_isim_beh.exe -prj D:/Proyectos_Xilinx/Procesador2/test_procesador2_beh.prj work.test_procesador2 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/UC.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/sumador.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/SEU_unidad_extension_signo.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/register_file_RF.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/progam_counter_PC.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/nPc.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/MUX_multiplexor.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/instruction_memory_IM.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/ALU.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/Procesador2.vhd" into library work
+Parsing VHDL file "D:/Proyectos_Xilinx/Procesador2/test_procesador2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity sumador [sumador_default]
+Compiling architecture behavioral of entity nPc [npc_default]
+Compiling architecture behavioral of entity progam_counter_PC [progam_counter_pc_default]
+Compiling architecture behavioral of entity instruction_memory_IM [instruction_memory_im_default]
+Compiling architecture behavioral of entity UC [uc_default]
+Compiling architecture behavioral of entity register_file_RF [register_file_rf_default]
+Compiling architecture behavioral of entity MUX_multiplexor [mux_multiplexor_default]
+Compiling architecture behavioral of entity SEU_unidad_extension_signo [seu_unidad_extension_signo_defau...]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture arq_procesador2 of entity Procesador2 [procesador2_default]
+Compiling architecture behavior of entity test_procesador2
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable D:/Proyectos_Xilinx/Procesador2/test_procesador2_isim_beh.exe
+Fuse Memory Usage: 37032 KB
+Fuse CPU Usage: 842 ms
